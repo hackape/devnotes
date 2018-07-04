@@ -53,10 +53,10 @@ var Foo = /** @class */ (function() {
   }
   Foo.prototype.greet = function() {};
 
-  // FLAG_DECORATE_METHOD
-  __decorate([observable], Foo.prototype, "bar", void 0);
-
   // FLAG_DECORATE_PROPERTY
+  __decorate([observable], Foo.prototype, "bar", void 0);
+  
+  // FLAG_DECORATE_METHOD
   __decorate([action], Foo.prototype, "greet", null);
 
   // FLAG_DECORATE_CLASS
